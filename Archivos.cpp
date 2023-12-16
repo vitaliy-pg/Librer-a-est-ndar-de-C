@@ -37,7 +37,7 @@ int main() {
 
     std::cout << "Contenido leído del archivo: " << buffer << std::endl;
 
-
+    fclose(archivo);
 
     return 0;
 }
