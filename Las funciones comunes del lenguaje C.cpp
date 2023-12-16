@@ -9,4 +9,5 @@ int main() {
     int valorAbsNegativo = abs(numeroNegativo);
     std::cout << "Valor absoluto de " << numeroNegativo << ": " << valorAbsNegativo << std::endl;
 
+    return 0;
 }
