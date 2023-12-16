@@ -14,6 +14,6 @@ void funcion1() {
 #include <cstdlib>
 int main() {
 funcion1();
-
+    std::cout << "Número aleatorio sin cambiar la semilla: " << rand() << std::endl;
 
 }
