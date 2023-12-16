@@ -25,11 +25,13 @@ int main() {
         fclose(archivoEscritura);
 
         archivo = fopen(nombreArchivo, "r");
-    } else {
-        std::cout << "El archivo se abrió correctamente." << std::endl;
 
-        fclose(archivo);
+        if (archivo == nullptr) {
+            std::cerr << "Error: No se pudo abrir el archivo para lectura." << std::endl;
+            return 1;
+        }
     }
+
     return 0;
 }
 //voy a añadir el apartado b
