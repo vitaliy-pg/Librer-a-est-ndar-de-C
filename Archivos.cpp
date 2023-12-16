@@ -11,3 +11,6 @@ int main() {
     if (archivo == nullptr) {
         // El archivo no pudo abrirse, muestra un mensaje de error
         std::cerr << "Error: No se pudo abrir el archivo '" << nombreArchivo << "'" << std::endl;
+
+    } else {
+        std::cout << "El archivo se abrió correctamente." << std::endl;
