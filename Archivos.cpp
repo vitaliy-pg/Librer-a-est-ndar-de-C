@@ -14,3 +14,6 @@ int main() {
 
     } else {
         std::cout << "El archivo se abrió correctamente." << std::endl;
+
+        fclose(archivo);
+    }
