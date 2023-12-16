@@ -13,3 +13,7 @@ void funcion1() {
 #include <iostream>
 #include <cstdlib>
 int main() {
+funcion1();
+
+
+}
