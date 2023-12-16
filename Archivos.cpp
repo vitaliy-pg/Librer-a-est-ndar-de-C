@@ -35,6 +35,9 @@ int main() {
     char buffer[100];
     fscanf(archivo, "%99[^\n]", buffer);
 
+    std::cout << "Contenido leído del archivo: " << buffer << std::endl;
+
+
 
     return 0;
 }
