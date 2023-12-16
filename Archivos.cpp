@@ -19,6 +19,10 @@ int main() {
             return 1;
         }
 
+
+        fprintf(archivoEscritura, "Hola, esto es un ejemplo de escritura en archivo.\n");
+
+
     } else {
         std::cout << "El archivo se abrió correctamente." << std::endl;
 
