@@ -23,6 +23,8 @@ int main() {
         fprintf(archivoEscritura, "Hola, esto es un ejemplo de escritura en archivo.\n");
 
         fclose(archivoEscritura);
+
+        archivo = fopen(nombreArchivo, "r");
     } else {
         std::cout << "El archivo se abrió correctamente." << std::endl;
 
