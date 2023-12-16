@@ -9,8 +9,15 @@ int main() {
     FILE* archivo = fopen(nombreArchivo, "r");
 
     if (archivo == nullptr) {
-        // El archivo no pudo abrirse, muestra un mensaje de error
-        std::cerr << "Error: No se pudo abrir el archivo '" << nombreArchivo << "'" << std::endl;
+        std::cerr << "El archivo no existe. Creando y escribiendo en el archivo." << std::endl;
+
+        // Abrir el archivo para escritura
+        FILE* archivoEscritura = fopen(nombreArchivo, "w");
+
+        if (archivoEscritura == nullptr) {
+            std::cerr << "Error: No se pudo abrir el archivo para escritura." << std::endl;
+            return 1;
+        }
 
     } else {
         std::cout << "El archivo se abrió correctamente." << std::endl;
