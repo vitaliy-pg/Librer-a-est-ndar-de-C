@@ -18,6 +18,9 @@ funcion1();
 
     unsigned int nuevaSemilla = 42; // Puedes cambiar este valor para obtener diferentes secuencias de números aleatorios
     srand(nuevaSemilla);
+    std::cout << "Número aleatorio con nueva semilla: " << rand() << std::endl;
+
+    return 0;
 
 
 }
