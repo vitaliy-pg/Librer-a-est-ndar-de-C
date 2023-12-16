@@ -7,6 +7,10 @@ int main() {
     const char* cadena2 = "Hola";
     const char* cadena3 = "Mundo";
 
+    size_t longitud1 = strlen(cadena1);
+    size_t longitud2 = strlen(cadena2);
+    size_t longitud3 = strlen(cadena3);
+
     int resultado1 = strcmp(cadena1, cadena2);
     int resultado2 = strcmp(cadena1, cadena3);
 
