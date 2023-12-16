@@ -16,3 +16,4 @@ int main() {
     return 0;
 
 }
+// añado tambien el apartado b
