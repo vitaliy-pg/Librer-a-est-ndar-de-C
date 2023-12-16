@@ -4,3 +4,6 @@
 #include <cstdio>
 
 int main() {
+
+    const char* nombreArchivo = "mi_archivo.txt";
+    FILE* archivo = fopen(nombreArchivo, "r");
