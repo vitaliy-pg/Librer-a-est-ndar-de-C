@@ -13,4 +13,6 @@ int main() {
     std::cout << "Comparación entre cadena1 y cadena2: " << resultado1 << std::endl;
     std::cout << "Comparación entre cadena1 y cadena3: " << resultado2 << std::endl;
 
+    return 0;
+
 }
