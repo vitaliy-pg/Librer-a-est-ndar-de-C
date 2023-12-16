@@ -10,3 +10,5 @@ void funcion1() {
     std::cout << "Valor absoluto de " << numeroNegativo << ": " << valorAbsNegativo << std::endl;
 
 }
+#include <iostream>
+#include <cstdlib>
