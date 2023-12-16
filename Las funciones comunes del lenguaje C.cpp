@@ -1,6 +1,6 @@
 //programa basasdo en calculo del valor absoluto de un numero
 #include <iostream>
-int main() {
+void funcion1() {
     int numeroPositivo = 10;
     int valorAbsPositivo = abs(numeroPositivo);
     std::cout << "Valor absoluto de " << numeroPositivo << ": " << valorAbsPositivo << std::endl;
@@ -9,5 +9,4 @@ int main() {
     int valorAbsNegativo = abs(numeroNegativo);
     std::cout << "Valor absoluto de " << numeroNegativo << ": " << valorAbsNegativo << std::endl;
 
-    return 0;
 }
