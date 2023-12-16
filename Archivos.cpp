@@ -32,6 +32,10 @@ int main() {
         }
     }
 
+    char buffer[100];
+    fscanf(archivo, "%99[^\n]", buffer);
+
+
     return 0;
 }
 //voy a añadir el apartado b
