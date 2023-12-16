@@ -14,13 +14,11 @@ void funcion1() {
 #include <cstdlib>
 int main() {
 funcion1();
-    std::cout << "Número aleatorio sin cambiar la semilla: " << rand() << std::endl;
+    std::cout << "Numero aleatorio sin cambiar la semilla: " << rand() << std::endl;
 
     unsigned int nuevaSemilla = 42; // Puedes cambiar este valor para obtener diferentes secuencias de números aleatorios
     srand(nuevaSemilla);
-    std::cout << "Número aleatorio con nueva semilla: " << rand() << std::endl;
+    std::cout << "Numero aleatorio con nueva semilla: " << rand() << std::endl;
 
     return 0;
-
-
 }
